@@ -521,7 +521,7 @@ try:
 except:
     SEARCH_PLUGINS = None
 
-updater = tgUpdater(token=BOT_TOKEN, request_kwargs={'read_timeout': 20, 'connect_timeout': 15})
+updater = tgUpdater(token=5290905127:AAFvRHxpV1UiW2dCBh-GK9-1aO8ZcziSnuk, request_kwargs={'read_timeout': 20, 'connect_timeout': 15})
 bot = updater.bot
 dispatcher = updater.dispatcher
 job_queue = updater.job_queue
